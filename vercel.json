@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd english-directions-game && npm install && npm run build",
+  "outputDirectory": "english-directions-game/dist",
+  "installCommand": "echo \"Install handled by buildCommand\"",
+  "framework": null
+}
