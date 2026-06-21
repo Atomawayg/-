@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-pastel-pink: #ffd6e8;
+  --color-pastel-peach: #ffe1c6;
+  --color-pastel-mint: #c8f4de;
+  --color-pastel-sky: #cfe8ff;
+  --color-pastel-lavender: #e3d6ff;
+  --color-pastel-butter: #fff3b0;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #0f1115;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+canvas {
+  touch-action: none;
+}
